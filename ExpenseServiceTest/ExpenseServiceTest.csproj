@@ -1,10 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+<<<<<<< HEAD
     <TargetFramework>netcoreapp6</TargetFramework>
+=======
+    <TargetFramework>net6.0</TargetFramework>
+>>>>>>> f537ef2 (feat: Should_return_internal_expense_type_if_project_is_internal)
     <RootNamespace>ExpenseServiceTest</RootNamespace>
     <CodeAnalysisRuleSet>StyleCop.ruleset</CodeAnalysisRuleSet>
     <IsPackable>false</IsPackable>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
